@@ -1,0 +1,70 @@
+verbatim:
+  cabal-version: 2.2
+
+name: cs202-compiler
+version: 0.0.0.0
+license: GPL-3.0-or-later
+
+ghc-options:
+  - -j
+  - -O0
+  - -threaded -rtsopts -with-rtsopts=-N
+
+dependencies:
+  - base
+  - pretty-simple
+  - process
+  - directory
+  - containers
+  - text
+  - parsec >= 3.1.13
+  - random
+
+library:
+  source-dirs: common
+
+executables:
+  a1-compiler:
+    main: Main.hs
+    source-dirs: a1
+    dependencies: cs202-compiler
+  a2-compiler:
+    main: Main.hs
+    source-dirs: a2
+    dependencies: cs202-compiler
+  a3-compiler:
+    main: Main.hs
+    source-dirs: a3
+    dependencies: cs202-compiler
+  a4-compiler:
+    main: Main.hs
+    source-dirs: a4
+    dependencies: cs202-compiler
+  a5-compiler:
+    main: Main.hs
+    source-dirs: a5
+    dependencies: cs202-compiler
+  a6-compiler:
+    main: Main.hs
+    source-dirs: a6
+    dependencies: cs202-compiler
+  a7-compiler:
+    main: Main.hs
+    source-dirs: a7
+    dependencies: cs202-compiler
+  records-compiler:
+    main: Main.hs
+    source-dirs: records
+    dependencies: cs202-compiler
+  dynamic-compiler:
+    main: Main.hs
+    source-dirs: dynamic
+    dependencies: cs202-compiler
+  objects-compiler:
+    main: Main.hs
+    source-dirs: objects
+    dependencies: cs202-compiler
+  lists-compiler:
+    main: Main.hs
+    source-dirs: lists
+    dependencies: cs202-compiler

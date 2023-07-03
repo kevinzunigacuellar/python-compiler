@@ -1,0 +1,10 @@
+.stack-work
+*.cabal
+*.lock
+.idea
+.venv
+__pycache__
+.mypy_cache
+/env
+
+DS_Store

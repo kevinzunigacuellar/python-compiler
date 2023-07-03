@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cs202-support
+Version: 0.5
+Summary: Support code for CS202: compiler construction
+Home-page: http://github.com/jnear/cs202-assignments
+Author: Joe Near
+Author-email: jnear@uvm.edu
+License: GPLv3
+License-File: LICENSE
